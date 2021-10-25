@@ -7,6 +7,12 @@ const sumar = (a,b) => {
     return resultado
 };
 
+// Función para calcular el promedio
+const calcularPromedio = (num1, num2) => {
+    const total = sumar(num1 + num2)
+    
+    console.log(total / 2)
+}
 
 const resta = (a,b) => {
     console.log(a - b);
