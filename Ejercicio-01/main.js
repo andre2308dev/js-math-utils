@@ -1,8 +1,12 @@
-const suma = (a,b) => {
-    console.log(a + b);
+// Suma promedio
+
+const sumar = (a,b) => {
+    const resultado = a + b;
+    console.log(resultado);
+
+    return resultado
 };
 
-suma(10,5);
 
 const resta = (a,b) => {
     console.log(a - b);
