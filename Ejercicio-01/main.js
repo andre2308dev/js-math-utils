@@ -43,3 +43,19 @@ const getBigger = (a,b) => {
 };
 
 getBigger(74,57)
+
+/**
+ * This function calculates pow of a number
+ * @param {*} num num base
+ * @param {*} pow num pow
+ * @returns
+ */
+
+const getPow = (num,pow) => {
+    if( isNaN(num) || isNaN(pow)) {
+        console.log("No son valores validos!");
+        return
+    }
+    return num**pow
+    //Math.pow(num, pow); // Using Math Library
+}
