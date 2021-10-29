@@ -33,3 +33,13 @@ const division = (a,b) => {
 }
 
 division(200,2);
+
+// Función Que Retorna El Número Mayor
+const getBigger = (a,b) => {
+    if( !isNaN(a) && typeof b === 'number' ) {
+        return a>b ? console.log(a) : console.log(b); 
+    }
+    alert("Debe ser un número")
+};
+
+getBigger(74,57)

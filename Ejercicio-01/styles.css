@@ -1,12 +1,17 @@
 * {
-    background-color: brown;
+    background-color: aqua;
 }
 
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo {
+    width: 300px;
     font-size: 30px;
-    background-color: cadetblue;
+    background-color: lightcoral;
+    border-radius: 5px;
 }
