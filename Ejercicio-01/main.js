@@ -59,3 +59,9 @@ const getPow = (num,pow) => {
     return num**pow
     //Math.pow(num, pow); // Using Math Library
 }
+
+const potenciarNumero = (a,b) => {
+    return a ** b;
+};
+
+
