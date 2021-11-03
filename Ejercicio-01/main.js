@@ -10,7 +10,6 @@ const sumar = (a,b) => {
 // Función para calcular el promedio
 const calcularPromedio = (num1, num2) => {
     const total = sumar(num1 + num2)
-    
     console.log(total / 2)
 }
 
@@ -59,3 +58,17 @@ const getPow = (num,pow) => {
     return num**pow
     //Math.pow(num, pow); // Using Math Library
 }
+
+// Challenge Meeting 57
+
+/**
+ * función que nos permite calcular la raíz 
+ * cuadrada de un número
+ * @param {Integer} a 
+ * @returns 
+ */
+
+const sqrt = (a) => {
+    return Math.sqrt(a);
+};
+
