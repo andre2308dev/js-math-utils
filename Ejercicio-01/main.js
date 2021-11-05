@@ -1,5 +1,11 @@
-const suma = (a,b) => {
-    console.log(a+b);
-};
+// Función suma dentro de un setTimeout
 
-suma(10,5);
+setTimeout(() => {
+    const suma = (a,b) => {
+        console.log(a+b);
+        console.log('Primera suma con tiempo')
+    };
+    
+    suma(10,5);
+}, 4000)
+
